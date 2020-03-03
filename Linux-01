@@ -1,0 +1,21 @@
+cr7t3k@RogStryx:~$ ls
+Bureau     examples.desktop  Modèles  Public  Téléchargements
+Documents  Images            Musique  snap    Vidéos
+cr7t3k@RogStryx:~$ ls -a
+.              .compiz           .ICEauthority  snap
+..             .config           Images         .sudo_as_admin_successful
+.atom          .dmrc             .local         Téléchargements
+.bash_history  Documents         Modèles        Vidéos
+.bash_logout   examples.desktop  Musique        .vscode
+.bashrc        .gconf            .pki           .Xauthority
+Bureau         .gnupg            .profile       .xsession-errors
+.cache         .hardinfo         Public         .xsession-errors.old
+cr7t3k@RogStryx:~$ ls Images
+cr7t3k@RogStryx:~$ ls /home/cr7t3k
+Bureau     examples.desktop  Modèles  Public  Téléchargements
+Documents  Images            Musique  snap    Vidéos
+cr7t3k@RogStryx:~$ pwd
+/home/cr7t3k
+cr7t3k@RogStryx:~$ cd Images
+cr7t3k@RogStryx:~/Images$ cd ..
+cr7t3k@RogStryx:~$ 
