@@ -1,0 +1,11 @@
+Début calcul (réel_argent,réel_prix)
+
+  nbBonbons=0
+
+  Tant que réel_prix > réel_argent
+    réel_argent ← réel_argent - réel_prix
+    nbBonbons ← nbBonbons+1
+Fin calcul
+
+retourner nbBonbons
+  
