@@ -1,7 +1,7 @@
 Début calcul (réel_argent,réel_prix)
 
   nbBonbons=0
-  Si argent et prix sont >= 0
+  Si réel_argent et réel_prix sont >= 0
     Tant que réel_prix > réel_argent
       réel_argent ← réel_argent - réel_prix
       nbBonbons ← nbBonbons+1
