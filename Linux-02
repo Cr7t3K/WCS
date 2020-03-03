@@ -1,0 +1,68 @@
+_________________________________________________________________
+cr7t3k@RogStryx:~/quetes/shell/planets$ tree
+.
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   ├── cybertron.jpeg
+│   └── earth.jpeg
+└── real
+    ├── gas-giants
+    │   ├── jupiter.jpeg
+    │   ├── neptune.jpeg
+    │   ├── saturn.jpeg
+    │   └── uranus.jpeg
+    └── telluric
+        ├── earth.jpeg
+        ├── mars.jpeg
+        ├── mercury.jpeg
+        └── venus.jpeg
+
+5 directories, 15 files
+
+_________________________________________________________________
+
+sudo apt-get install -y tree wget unzip
+   48  wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+   49  unzip planets.zip
+   50  eog planets/
+   51  ls
+   52  cd planets/
+   53  mkdir real fictional inhabited
+   54  ls
+   55  cd real/
+   56  mkdir telluric gas-giants dward-planets
+   57  ls
+   58  eog planets/
+   59  eog ../planets
+   60  cd ..
+   61  eog planets/
+   62  ls
+   63  eog planets/
+   64  cd..
+   65  cd ..
+   66  eog planets/
+   67  cd planets
+   68  ls
+   69  mv earth.jpeg mercury.jpeg venus.jpeg mars.jpeg real/telluric/
+   70  mv jupiter.jpeg saturn.jpeg neptune.jpeg uranus.jpeg real/gas-giants/
+   71  mv pluto.jpeg real/dward-planets/
+   72  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional/
+   73  ls
+   74  cd fictional/
+   75  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg ../inhabited/
+   76  cd ..
+   77  cp real/telluric/earth.jpeg inhabited/
+   78  ls
+   79  cd real/
+   80  ls
+   81  ls dward-planets/
+   82  rm -r dward-planets/
+   83  tree
+   84  cd ..
+   85  tree
+   86  history
