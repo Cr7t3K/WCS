@@ -1,0 +1,15 @@
+cr7t3k@RogStryx:~/Documents/ExerciceWCS/sharezza-oops$ git log --oneline
+70f9100 (HEAD -> master) Ajout 2
+3ba6576 Ajout H1
+d01f517 Changement Title
+36880cc Add index.html
+cr7t3k@RogStryx:~/Documents/ExerciceWCS/sharezza-oops$ git revert 70f9100
+[master 99fe459] Revert "Annule change 2"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+cr7t3k@RogStryx:~/Documents/ExerciceWCS/sharezza-oops$ git log --oneline
+99fe459 (HEAD -> master) Revert "Annule change 2"
+70f9100 Ajout 2
+3ba6576 Ajout H1
+d01f517 Changement Title
+36880cc Add index.html
+cr7t3k@RogStryx:~/Documents/ExerciceWCS/sharezza-oops$
