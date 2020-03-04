@@ -1,0 +1,33 @@
+cr7t3k@RogStryx:~$ cd sharezza-social/
+cr7t3k@RogStryx:~/sharezza-social$ git status
+Sur la branche master
+Votre branche est à jour avec 'origin/master'.
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+
+	modifié :         index.html
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+cr7t3k@RogStryx:~/sharezza-social$ git commit -a -m "Ajout <h1> et changement <title>"
+[master 34ef4dc] Ajout <h1> et changement <title>
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+cr7t3k@RogStryx:~/sharezza-social$ git status
+Sur la branche master
+Votre branche est en avance sur 'origin/master' de 1 commit.
+  (utilisez "git push" pour publier vos commits locaux)
+
+rien à valider, la copie de travail est propre
+cr7t3k@RogStryx:~/sharezza-social$ git push origin master
+Username for 'https://github.com': Cr7t3K
+Password for 'https://Cr7t3K@github.com': 
+Énumération des objets: 5, fait.
+Décompte des objets: 100% (5/5), fait.
+Compression par delta en utilisant jusqu'à 12 fils d'exécution
+Compression des objets: 100% (3/3), fait.
+Écriture des objets: 100% (3/3), 393 bytes | 393.00 KiB/s, fait.
+Total 3 (delta 0), réutilisés 0 (delta 0)
+To https://github.com/Cr7t3K/sharezza-social.git
+   5e5855c..34ef4dc  master -> master
+cr7t3k@RogStryx:~/sharezza-social$
